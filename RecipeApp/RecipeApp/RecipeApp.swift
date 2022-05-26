@@ -11,7 +11,7 @@ import SwiftUI
 struct RecipeApp: App {
     var body: some Scene {
         WindowGroup {
-            RecipeListView()
+            Tabs() //When the app starts, it coreates an instance of RecipeListView
         }
     }
 }
